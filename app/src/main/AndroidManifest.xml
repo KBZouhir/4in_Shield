@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="stic.cdam.a4in_shield">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.4in_Shield">
+        <activity android:name="com.example.a4in_shield.ApplicationList"></activity>
+        <activity android:name="com.example.a4in_shield.ChildDashboard3" />
+        <activity android:name="com.example.a4in_shield.ChildDashboard2" />
+        <activity android:name="com.example.a4in_shield.ChildDashboard_1" />
+        <activity android:name="com.example.a4in_shield.CongratsWizardEnd_2" />
+        <activity android:name="com.example.a4in_shield.CongratsWizardEnd_1" />
+        <activity android:name="com.example.a4in_shield.AddChild" />
+        <activity android:name="com.example.a4in_shield.ConfirmProfil" />
+        <activity android:name="com.example.a4in_shield.SpaceChose" />
+        <activity android:name="com.example.a4in_shield.Bienvenu" />
+        <activity android:name="com.example.a4in_shield.AddDevice" />
+        <activity android:name="com.example.a4in_shield.AddProfil" />
+        <activity android:name="com.example.a4in_shield.SignUp" />
+        <activity android:name="com.example.a4in_shield.Login" />
+        <activity android:name="com.example.a4in_shield.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F77B6"
+    tools:context="com.example.a4in_shield.AddProfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/addprofil"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please enter your child’s social \n media account information "
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:lineHeight="35dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="22dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This information will help us to protect your child from\n online abusive content and cyberharassment"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lineHeight="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:hint="Social network platform (Drop down)"
+            android:layout_height="60dp"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Social network user name"
+            android:layout_height="60dp"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Social network page URL"
+            android:layout_height="60dp"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_skip"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:text="Skip"
+                android:textColor="@color/blue"
+                app:layout_constraintEnd_toStartOf="@+id/btn_next"
+                app:layout_constraintHorizontal_bias="0.019"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:text="next"
+                android:textColor="@color/blue"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                android:gravity="center"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
