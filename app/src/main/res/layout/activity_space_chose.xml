@@ -8,23 +8,23 @@
     android:orientation="vertical"
     tools:context="com.example.a4in_shield.SpaceChose">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Who is going to use \n this device?"
-        android:lineHeight="40dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:textSize="25dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_margin="30dp">
 
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is going to use \n this device?"
+            android:lineHeight="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="25dp"/>
 
         <RelativeLayout
             android:id="@+id/btn_parents"

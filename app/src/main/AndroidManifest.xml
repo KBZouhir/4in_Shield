@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.4in_Shield">
+        <activity android:name="com.example.a4in_shield.child_dashboard_3"></activity>
+        <activity android:name="com.example.a4in_shield.child_dashboard2" />
         <activity android:name="com.example.a4in_shield.ChildDashboard_1" />
         <activity android:name="com.example.a4in_shield.CongratsWizardEnd_2" />
         <activity android:name="com.example.a4in_shield.CongratsWizardEnd_1" />
@@ -20,7 +22,7 @@
         <activity android:name="com.example.a4in_shield.AddProfil" />
         <activity android:name="com.example.a4in_shield.SignUp" />
         <activity android:name="com.example.a4in_shield.Login" />
-        <activity android:name="com.example.a4in_shield.MainActivity" >
+        <activity android:name="com.example.a4in_shield.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
