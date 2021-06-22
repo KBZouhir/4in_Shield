@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.4in_Shield">
-        <activity android:name="com.example.a4in_shield.ApplicationList"></activity>
-        <activity android:name="com.example.a4in_shield.ChildDashboard3" />
-        <activity android:name="com.example.a4in_shield.ChildDashboard2" />
         <activity android:name="com.example.a4in_shield.ChildDashboard_1" />
         <activity android:name="com.example.a4in_shield.CongratsWizardEnd_2" />
         <activity android:name="com.example.a4in_shield.CongratsWizardEnd_1" />
