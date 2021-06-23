@@ -8,9 +8,11 @@ import stic.cdam.a4in_shield.R;
 
 public class child_dashboard2 extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_child_dashboard2);
+
     }
 }
